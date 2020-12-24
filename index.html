@@ -13,7 +13,7 @@
             font-family: sans-serif;
         }
         body{
-           background: rgb(2,0,36);
+           background: royalblue;
         }
         .form{
             position: absolute;
@@ -39,19 +39,26 @@
             margin: 10px auto;
             font-size: 19px;
             width: 100%;
-            border: 2px solid rgb(255, 86, 67);
+            border: 2px solid royalblue;
            outline: none;
            border-radius: 30px;
+           transition: 0.6s;
+        }
+        .form form input:focus{
+            border: 2px solid salmon;
         }
         .form form button{
             border: none;
-            background-color: rgb(255, 86, 67);
+            background-color: royalblue;
             color: #ffffff;
             padding:  15px 10px;
             margin: 10px auto 10px auto;
             font-size: 19px;
             border-radius: 30px;
             width: 100%;
+        }
+        .form form button:hover{
+            opacity: 0.8;
         }
         .form form p{
             font-size: 16px;
